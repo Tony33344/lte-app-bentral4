@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LTE Apartments - Luxury vacation rentals in Maribor, Slovenia. Experience Slovenia's hidden gem with our premium apartments.">
+    <title>LTE Apartments | Luxury Rentals in Maribor, Slovenia</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="index.html" class="logo">LTE <span>apartments</span></a>
+                
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#properties" class="nav-link">Properties</a></li>
+                    <li><a href="#amenities" class="nav-link">Amenities</a></li>
+                    <li><a href="#location" class="nav-link">Location</a></li>
+                    <li><a href="#host" class="nav-link">Host</a></li>
+                    <li><a href="#booking" class="nav-cta btn btn-primary">Book Now</a></li>
+                </ul>
+                
+                <button class="mobile-menu-btn" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Mobile Navigation Overlay -->
+    <div class="nav-overlay">
+        <ul class="nav-links-mobile">
+            <li><a href="#home" class="nav-link-mobile">Home</a></li>
+            <li><a href="#properties" class="nav-link-mobile">Properties</a></li>
+            <li><a href="#amenities" class="nav-link-mobile">Amenities</a></li>
+            <li><a href="#location" class="nav-link-mobile">Location</a></li>
+            <li><a href="#host" class="nav-link-mobile">Host</a></li>
+            <li class="nav-cta-mobile"><a href="#booking" class="btn btn-primary">Book Now</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-slider">
+            <a href="apartments/big-open.html" class="hero-slide active">
+                <img src="images/bigopen/hero1.avif" alt="Big Open Apartment" class="hero-slide-image">
+            </a>
+            <a href="apartments/lte-high.html" class="hero-slide">
+                <img src="images/ltehigh/livingroom.jpg" alt="LTE High Apartment" class="hero-slide-image">
+            </a>
+            <a href="apartments/high-q.html" class="hero-slide">
+                <img src="images/highun/kitchen.jpg" alt="High Q Apartment" class="hero-slide-image">
+            </a>
+        </div>
+        <div class="hero-overlay"></div>
+        
+        <div class="hero-content">
+            <span class="hero-badge">Luxury Apartments in Maribor</span>
+            <h1 class="hero-title">LTE APARTMENTS</h1>
+            <p class="hero-subtitle">Experience Slovenia's Hidden Gem</p>
+            
+            <div class="hero-stats">
+                <div class="hero-stat">
+                    <span class="hero-stat-value">3</span>
+                    <span class="hero-stat-label">Properties</span>
+                </div>
+                <div class="hero-stat">
+                    <span class="hero-stat-value">500+</span>
+                    <span class="hero-stat-label">Reviews</span>
+                </div>
+                <div class="hero-stat">
+                    <span class="hero-stat-value">★</span>
+                    <span class="hero-stat-label">Superhost</span>
+                </div>
+            </div>
+            
+            <div class="hero-cta">
+                <a href="#properties" class="btn btn-primary">Explore Properties</a>
+            </div>
+        </div>
+        
+        <div class="hero-slider-dots">
+            <button class="hero-slider-dot active" aria-label="Slide 1"></button>
+            <button class="hero-slider-dot" aria-label="Slide 2"></button>
+            <button class="hero-slider-dot" aria-label="Slide 3"></button>
+        </div>
+        
+        <div class="hero-scroll-indicator">
+            <span>Scroll</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Properties Section -->
+    <section id="properties" class="section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-badge">Our Collection</span>
+                <h2 class="section-title">Exceptional Properties</h2>
+                <p class="section-subtitle">Discover our handpicked selection of luxury apartments, each offering a unique experience in the heart of Maribor.</p>
+            </div>
+            
+            <div class="properties-grid">
+                <!-- Big Open Apartment -->
+                <a href="apartments/big-open.html" class="property-card fade-in stagger-1">
+                    <div class="property-image" style="background-image: url('images/bigopen/hero1.avif');">
+                        <span class="property-badge">Best Seller</span>
+                        <div class="property-price">€120 <span>/night</span></div>
+                    </div>
+                    <div class="property-content">
+                        <h3>Big Open Apartment</h3>
+                        <p>Spacious 90m² luxury apartment with terrace, BBQ, and private garden - perfect for families.</p>
+                        <div class="property-specs">
+                            <span><i class="fas fa-users"></i> 7 Guests</span>
+                            <span><i class="fas fa-bed"></i> 2 Beds</span>
+                            <span><i class="fas fa-bath"></i> 1 Bath</span>
+                        </div>
+                        <div class="property-footer">
+                            <div class="rating">★★★★★ 4.67 (209)</div>
+                            <span class="view-link">View Details →</span>
+                        </div>
+                    </div>
+                </a>
+                
+                <!-- LTE High Apartment -->
+                <a href="apartments/lte-high.html" class="property-card fade-in stagger-2">
+                    <div class="property-image" style="background-image: url('images/ltehigh/livingroom.jpg');">
+                        <span class="property-badge">Wellness</span>
+                        <div class="property-price">€100 <span>/night</span></div>
+                    </div>
+                    <div class="property-content">
+                        <h3>LTE High Apartment</h3>
+                        <p>Unique high-ceiling open space with aerial yoga hammock and positive energy vibes.</p>
+                        <div class="property-specs">
+                            <span><i class="fas fa-users"></i> 6 Guests</span>
+                            <span><i class="fas fa-bed"></i> 1 Bed</span>
+                            <span><i class="fas fa-bath"></i> 1.5 Bath</span>
+                        </div>
+                        <div class="property-footer">
+                            <div class="rating">★★★★★ 4.71 (163)</div>
+                            <span class="view-link">View Details →</span>
+                        </div>
+                    </div>
+                </a>
+                
+                <!-- High Q Apartment -->
+                <a href="apartments/high-q.html" class="property-card fade-in stagger-3">
+                    <div class="property-image" style="background-image: url('images/highun/kitchen.jpg');">
+                        <span class="property-badge">Premium</span>
+                        <div class="property-price">€90 <span>/night</span></div>
+                    </div>
+                    <div class="property-content">
+                        <h3>High Q Apartment</h3>
+                        <p>High-ceiling apartment with designer kitchen, premium streaming, and unbeatable location.</p>
+                        <div class="property-specs">
+                            <span><i class="fas fa-users"></i> 6 Guests</span>
+                            <span><i class="fas fa-bed"></i> 2 Beds</span>
+                            <span><i class="fas fa-bath"></i> 1.5 Bath</span>
+                        </div>
+                        <div class="property-footer">
+                            <div class="rating">★★★★★ 4.53 (115)</div>
+                            <span class="view-link">View Details →</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section section-alt">
+        <div class="container">
+            <div class="experience-grid">
+                <div class="experience-image fade-in-left">
+                    <img src="images/maribordrava.jpg" alt="Maribor City View">
+                </div>
+                <div class="experience-content fade-in-right">
+                    <span class="section-badge">About Us</span>
+                    <h2 class="section-title">The LTE Experience</h2>
+                    <p>Welcome to LTE Apartments, where luxury meets authentic Slovenian hospitality. Our carefully curated collection of premium apartments in Maribor offers more than just accommodation – we provide an immersive experience in one of Europe's most charming hidden gems.</p>
+                    
+                    <div class="experience-highlights">
+                        <div class="experience-highlight">
+                            <div class="experience-highlight-icon">
+                                <i class="fas fa-gem"></i>
+                            </div>
+                            <div>
+                                <h4>Premium Quality</h4>
+                                <p>Premium mattresses, designer kitchens, and high-end finishes throughout</p>
+                            </div>
+                        </div>
+                        <div class="experience-highlight">
+                            <div class="experience-highlight-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4>Perfect Location</h4>
+                                <p>Near wine trails, 5 min to city center, 15 min to Pohorje ski resort</p>
+                            </div>
+                        </div>
+                        <div class="experience-highlight">
+                            <div class="experience-highlight-icon">
+                                <i class="fas fa-concierge-bell"></i>
+                            </div>
+                            <div>
+                                <h4>Superhost Service</h4>
+                                <p>8 years of hosting excellence with 97% response rate</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Amenities Section -->
+    <section id="amenities" class="section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-badge">What's Included</span>
+                <h2 class="section-title">Luxury Included</h2>
+                <p class="section-subtitle">Every stay comes with premium amenities designed for your comfort and convenience.</p>
+            </div>
+            
+            <div class="amenities-grid">
+                <div class="amenity-item fade-in stagger-1">
+                    <div class="amenity-icon">
+                        <i class="fas fa-wifi"></i>
+                    </div>
+                    <h4>High-Speed WiFi</h4>
+                    <p>Ultra-fast internet throughout</p>
+                </div>
+                
+                <div class="amenity-item fade-in stagger-2">
+                    <div class="amenity-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h4>Gourmet Kitchen</h4>
+                    <p>Fully equipped premium appliances</p>
+                </div>
+                
+                <div class="amenity-item fade-in stagger-3">
+                    <div class="amenity-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h4>Free Parking</h4>
+                    <p>Private secure parking included</p>
+                </div>
+                
+                <div class="amenity-item fade-in stagger-4">
+                    <div class="amenity-icon">
+                        <i class="fas fa-tv"></i>
+                    </div>
+                    <h4>Smart TV</h4>
+                    <p>Netflix, HBO Max, Disney+</p>
+                </div>
+                
+                <div class="amenity-item fade-in stagger-1">
+                    <div class="amenity-icon">
+                        <i class="fas fa-snowflake"></i>
+                    </div>
+                    <h4>Climate Control</h4>
+                    <p>Air conditioning & heating</p>
+                </div>
+                
+                <div class="amenity-item fade-in stagger-2">
+                    <div class="amenity-icon">
+                        <i class="fas fa-soap"></i>
+                    </div>
+                    <h4>Laundry</h4>
+                    <p>In-unit washer and dryer</p>
+                </div>
+                
+                <div class="amenity-item fade-in stagger-3">
+                    <div class="amenity-icon">
+                        <i class="fas fa-charging-station"></i>
+                    </div>
+                    <h4>EV Charger</h4>
+                    <p>Electric vehicle charging</p>
+                </div>
+                
+                <div class="amenity-item fade-in stagger-4">
+                    <div class="amenity-icon">
+                        <i class="fas fa-paw"></i>
+                    </div>
+                    <h4>Pet Friendly</h4>
+                    <p>Furry friends welcome</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="section section-alt">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-badge">Where We Are</span>
+                <h2 class="section-title">Prime Location</h2>
+                <p class="section-subtitle">Perfectly situated for exploring Maribor and the surrounding wine country.</p>
+            </div>
+            
+            <div class="location-grid">
+                <div class="location-map fade-in-left">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2743.6!2d15.6547946!3d46.5765952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476f7659be6164e3%3A0x214f1b26680d2d93!2sLTE%20Apartments!5e0!3m2!1sen!2s!4v1707000000000!5m2!1sen!2s" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                <div class="location-info fade-in-right">
+                    <h3>Find Us in Maribor</h3>
+                    <div class="location-address">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>
+                            Šentiljska 75<br>
+                            2000 Maribor<br>
+                            Slovenia
+                        </p>
+                    </div>
+                    <div class="location-highlights">
+                        <h4>Nearby Attractions</h4>
+                        <ul>
+                            <li><i class="fas fa-circle"></i> Famous Wine Trail nearby</li>
+                            <li><i class="fas fa-circle"></i> 200m to top-rated Pizzeria</li>
+                            <li><i class="fas fa-circle"></i> 50m to Market Express</li>
+                            <li><i class="fas fa-circle"></i> 20m to Bus Stop</li>
+                            <li><i class="fas fa-circle"></i> 15 min to Pohorje Ski Center</li>
+                            <li><i class="fas fa-circle"></i> 5 min to City Center</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Host Section -->
+    <section id="host" class="section">
+        <div class="container">
+            <div class="host-section fade-in">
+                <div class="host-image">
+                    <img src="images/jernej host.png" alt="Jernej - Your Host">
+                </div>
+                <h2 class="host-name">Meet Jernej</h2>
+                <p class="host-title">Your Superhost</p>
+                
+                <div class="host-badges">
+                    <div class="host-badge">
+                        <span class="host-badge-value">1131</span>
+                        <span class="host-badge-label">Reviews</span>
+                    </div>
+                    <div class="host-badge">
+                        <span class="host-badge-value">8</span>
+                        <span class="host-badge-label">Years Hosting</span>
+                    </div>
+                    <div class="host-badge">
+                        <span class="host-badge-value">97%</span>
+                        <span class="host-badge-label">Response Rate</span>
+                    </div>
+                </div>
+                
+                <p class="host-bio">"Good vibes speak louder than words." I'm obsessed with breathwork, yoga, Pilates, and awareness. As your host, I'm dedicated to ensuring you have a perfect stay in Maribor. Whether you need local recommendations for wine trails or the best restaurants, I'm here to help.</p>
+                
+                <p class="host-languages"><strong>Languages:</strong> English, Slovenian</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- House Rules Section -->
+    <section class="section section-alt">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-badge">Good to Know</span>
+                <h2 class="section-title">Important Information</h2>
+            </div>
+            
+            <div class="rules-grid">
+                <div class="rules-card fade-in stagger-1">
+                    <div class="rules-card-header">
+                        <i class="fas fa-clipboard-list"></i>
+                        <h4>House Rules</h4>
+                    </div>
+                    <ul class="rules-list">
+                        <li><i class="fas fa-circle"></i> Check-in after 4:00 PM</li>
+                        <li><i class="fas fa-circle"></i> Checkout before 10:00 AM (Big Open: 11:00 AM)</li>
+                        <li><i class="fas fa-circle"></i> Quiet hours: 11:00 PM - 7:00 AM</li>
+                        <li><i class="fas fa-circle"></i> No smoking inside</li>
+                        <li><i class="fas fa-circle"></i> No parties or events</li>
+                        <li><i class="fas fa-circle"></i> No shoes inside the house</li>
+                        <li><i class="fas fa-circle"></i> Please do dishes before leaving</li>
+                        <li><i class="fas fa-circle"></i> All pets welcome</li>
+                    </ul>
+                </div>
+                
+                <div class="rules-card fade-in stagger-2">
+                    <div class="rules-card-header">
+                        <i class="fas fa-shield-alt"></i>
+                        <h4>Safety & Property</h4>
+                    </div>
+                    <ul class="rules-list">
+                        <li><i class="fas fa-check"></i> Carbon monoxide alarm installed</li>
+                        <li><i class="fas fa-check"></i> Smoke alarm installed</li>
+                        <li><i class="fas fa-check"></i> Self check-in with lockbox</li>
+                        <li><i class="fas fa-check"></i> Free parking on premises</li>
+                        <li><i class="fas fa-check"></i> EV charger available</li>
+                        <li><i class="fas fa-check"></i> Private entrance</li>
+                    </ul>
+                </div>
+                
+                <div class="rules-card fade-in stagger-3">
+                    <div class="rules-card-header">
+                        <i class="fas fa-euro-sign"></i>
+                        <h4>Tourist Tax</h4>
+                    </div>
+                    <ul class="rules-list">
+                        <li><i class="fas fa-user"></i> Adults: €2.50 per night per guest</li>
+                        <li><i class="fas fa-child"></i> Children 7-18: €1.25 per night</li>
+                        <li><i class="fas fa-baby"></i> Children under 7: Free</li>
+                    </ul>
+                    <p style="margin-top: 20px; font-size: 0.875rem; color: var(--text-gray);">Tourist tax is collected separately upon check-in or can be added to your booking.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking CTA Section -->
+    <section id="booking" class="section section-dark cta-section">
+        <div class="container">
+            <h2 class="fade-in">Ready to Experience Luxury?</h2>
+            <p class="fade-in">Book your stay at one of our exceptional Maribor apartments and discover Slovenia's hidden gem.</p>
+            <a href="#properties" class="btn btn-primary fade-in">Check Availability</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">LTE <span>apartments</span></a>
+                    <p>Experience luxury living in the heart of Maribor, Slovenia. Our premium apartments offer the perfect blend of comfort, style, and authentic Slovenian hospitality.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Airbnb"><i class="fab fa-airbnb"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#properties">Properties</a></li>
+                        <li><a href="#amenities">Amenities</a></li>
+                        <li><a href="#location">Location</a></li>
+                        <li><a href="#host">About Host</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Properties</h4>
+                    <ul class="footer-links">
+                        <li><a href="apartments/big-open.html">Big Open Apartment</a></li>
+                        <li><a href="apartments/lte-high.html">LTE High Apartment</a></li>
+                        <li><a href="apartments/high-q.html">High Q Apartment</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Contact</h4>
+                    <ul class="footer-contact">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Šentiljska 75, 2000 Maribor, Slovenia</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-clock"></i>
+                            <span>Response within an hour</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 LTE Apartments. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>
